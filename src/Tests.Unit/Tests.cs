@@ -23,10 +23,7 @@ namespace Tests.Unit
 	{
 
 		public int Price(string items)
-		{
-			if (string.IsNullOrEmpty(items))
-				return 0;
-			
+		{		
 			var total = 0;
 			foreach (var item in items)
 			{
